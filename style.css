@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* vaqtinchalik */
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.border-green {
+	border: 1px solid green;
+}
+.border-red {
+	border: 1px solid red;
+}
+.border-blue {
+	border: 1px solid blue;
+}
+.border-black {
+	border: 1px solid black;
+}
+
+
+/* asosiy */
+.flex {
+	display: flex;
+	width: 100%;
+}
+
+.column {
+	flex: 1;
+}
+
+.flex-auto-width {
+	flex: 0 0 auto;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
